@@ -14,5 +14,6 @@ data:
       <body>
         <h1>Hakuna Matata — your NGINX page is live 🎉</h1>
         <p>Served from a Kubernetes ConfigMap, running on KinD.</p>
+        <p><b><span style="color: blue;">Hello from Oklahoma</span></b></p>
       </body>
     </html>
