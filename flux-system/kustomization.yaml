@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- gotk-components.yaml
-- gotk-sync.yaml
-- nginx.yaml
+- fluxcd-kust.yaml
+- nginx-kust.yaml
+- fluxcd-core.yaml
