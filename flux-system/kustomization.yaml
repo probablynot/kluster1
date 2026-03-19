@@ -3,4 +3,3 @@ kind: Kustomization
 resources:
 - fluxcd-kust.yaml
 - nginx-kust.yaml
-- fluxcd-core.yaml
