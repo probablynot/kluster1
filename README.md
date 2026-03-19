@@ -263,3 +263,9 @@ If you want, your next “level up” after this is:
 - `kubectl port-forward` (quick dev loop)
 - Ingress (NGINX Ingress Controller) instead of NodePort
 - building images locally and loading into KinD (`kind load docker-image ...`)
+
+## Added remote install.yaml for FluxCD
+
+```
+kubectl apply -f https://github.com/fluxcd/flux2/releases/download/v2.2.3/install.yaml
+```
