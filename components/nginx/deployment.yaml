@@ -12,8 +12,6 @@ spec:
     metadata:
       labels:
         app: nginx
-      annotations:
-        flux-revision: "{{ .Revision }}"
     spec:
       containers:
       - name: nginx
