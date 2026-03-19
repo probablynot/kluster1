@@ -27,4 +27,4 @@ spec:
       volumes:
       - name: html
         configMap:
-          name: nginx-html
+          name: web-content
